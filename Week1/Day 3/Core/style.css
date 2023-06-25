@@ -1,0 +1,54 @@
+container {
+    margin:auto;
+    height: 1000px;
+    width: 760px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F8F8F8;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: grey;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: darkgray;
+}
+
+a {
+    color: cyan;
+}
+
+img.octocat {
+    height: 200px;
+}
+
+div { 
+    margin-bottom: 20px;
+}
+
+.first__row {
+    background-color: cyan;
+    padding: 20px;
+}
+
+.second__row {
+    background-color: pink;
+    width: 608px;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.third__row {
+    background-color: white;
+    width: 608px;
+    padding: 20px;
+}
