@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+}
+
+h1 {
+    margin:auto;
+    color: white;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+    font-size: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
